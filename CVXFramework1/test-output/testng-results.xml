@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="167918" started-at="2019-11-19T16:30:58 IST" finished-at="2019-11-19T16:33:46 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@458c1321]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome@36b4cef0]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@9a7504c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerEdge@23d2a7e8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerIE11@60285225]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerSafari@12cdcf4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="27184" started-at="2019-11-19T16:30:58 IST" finished-at="2019-11-19T16:31:25 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerChrome">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@458c1321]" name="setUpClass" is-config="true" duration-ms="392" started-at="2019-11-19T16:30:58 IST" finished-at="2019-11-19T16:30:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@458c1321]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2019-11-19T16:30:58 IST" finished-at="2019-11-19T16:30:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@458c1321]" name="feature" duration-ms="26115" started-at="2019-11-19T16:30:58 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:31:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@458c1321]" name="tearDownClass" is-config="true" duration-ms="491" started-at="2019-11-19T16:31:25 IST" finished-at="2019-11-19T16:31:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerChrome -->
+    </test> <!-- ChromeTest -->
+    <test name="AndroidMobileChromeTest" duration-ms="39650" started-at="2019-11-19T16:31:25 IST" finished-at="2019-11-19T16:32:05 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome@36b4cef0]" name="setUpClass" is-config="true" duration-ms="20" started-at="2019-11-19T16:31:25 IST" finished-at="2019-11-19T16:31:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome@36b4cef0]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2019-11-19T16:31:25 IST" finished-at="2019-11-19T16:31:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome@36b4cef0]" name="feature" duration-ms="39504" started-at="2019-11-19T16:31:25 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:32:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome@36b4cef0]" name="tearDownClass" is-config="true" duration-ms="109" started-at="2019-11-19T16:32:05 IST" finished-at="2019-11-19T16:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome -->
+    </test> <!-- AndroidMobileChromeTest -->
+    <test name="AndroidTabChromeTest" duration-ms="49423" started-at="2019-11-19T16:32:05 IST" finished-at="2019-11-19T16:32:54 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@9a7504c]" name="setUpClass" is-config="true" duration-ms="24" started-at="2019-11-19T16:32:05 IST" finished-at="2019-11-19T16:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@9a7504c]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2019-11-19T16:32:05 IST" finished-at="2019-11-19T16:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@9a7504c]" name="feature" duration-ms="49266" started-at="2019-11-19T16:32:05 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:32:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@9a7504c]" name="tearDownClass" is-config="true" duration-ms="116" started-at="2019-11-19T16:32:54 IST" finished-at="2019-11-19T16:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome -->
+    </test> <!-- AndroidTabChromeTest -->
+    <test name="EdgeTest" duration-ms="23210" started-at="2019-11-19T16:32:54 IST" finished-at="2019-11-19T16:33:18 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerEdge">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerEdge@23d2a7e8]" name="setUpClass" is-config="true" duration-ms="27" started-at="2019-11-19T16:32:54 IST" finished-at="2019-11-19T16:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerEdge@23d2a7e8]" name="selectBrowser" is-config="true" duration-ms="1" started-at="2019-11-19T16:32:54 IST" finished-at="2019-11-19T16:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerEdge@23d2a7e8]" name="feature" duration-ms="23087" started-at="2019-11-19T16:32:54 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:33:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerEdge@23d2a7e8]" name="tearDownClass" is-config="true" duration-ms="81" started-at="2019-11-19T16:33:18 IST" finished-at="2019-11-19T16:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerEdge -->
+    </test> <!-- EdgeTest -->
+    <test name="IE11Test" duration-ms="27968" started-at="2019-11-19T16:33:18 IST" finished-at="2019-11-19T16:33:46 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerIE11">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerIE11@60285225]" name="setUpClass" is-config="true" duration-ms="14" started-at="2019-11-19T16:33:18 IST" finished-at="2019-11-19T16:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerIE11@60285225]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2019-11-19T16:33:18 IST" finished-at="2019-11-19T16:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerIE11@60285225]" name="feature" duration-ms="27873" started-at="2019-11-19T16:33:18 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:33:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerIE11@60285225]" name="tearDownClass" is-config="true" duration-ms="74" started-at="2019-11-19T16:33:46 IST" finished-at="2019-11-19T16:33:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerIE11 -->
+    </test> <!-- IE11Test -->
+    <test name="SafariTest" duration-ms="155" started-at="2019-11-19T16:33:46 IST" finished-at="2019-11-19T16:33:46 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerSafari">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerSafari@12cdcf4]" name="setUpClass" is-config="true" duration-ms="19" started-at="2019-11-19T16:33:46 IST" finished-at="2019-11-19T16:33:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerSafari@12cdcf4]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2019-11-19T16:33:46 IST" finished-at="2019-11-19T16:33:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerSafari@12cdcf4]" name="feature" duration-ms="28" started-at="2019-11-19T16:33:46 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-19T16:33:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN5CG9292KLF', ip: '10.234.210.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN5CG9292KLF', ip: '10.234.210.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: SafariDriver
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: SafariDriver requires Safari 10 running on OSX El Capitan or greater.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN5CG9292KLF', ip: '10.234.210.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.safari.SafariDriverService.createDefaultService(SafariDriverService.java:59)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:63)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:41)
+at com.cvx.qa.base.TestBase.initialization(TestBase.java:95)
+at com.cvx.qa.stepdefinitions.Hooks.Setup(Hooks.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at cucumber.runtime.Utils$1.call(Utils.java:40)
+at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+at cucumber.runtime.Utils.invoke(Utils.java:34)
+at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerSafari@12cdcf4]" name="tearDownClass" is-config="true" duration-ms="98" started-at="2019-11-19T16:33:46 IST" finished-at="2019-11-19T16:33:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerSafari -->
+    </test> <!-- SafariTest -->
+  </suite> <!-- Suite -->
+</testng-results>

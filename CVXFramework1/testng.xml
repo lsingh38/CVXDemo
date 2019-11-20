@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="2" name="ChromeTest">
+		<classes>
+			<class name="com.cvx.qa.runners.GoIbiboTestRunnerChrome" />
+		</classes>
+	</test>
+
+	<!-- <test thread-count="2" name="EdgeTest"> <classes> <class name="com.cvx.qa.runners.GoIbiboTestRunnerEdge" 
+		/> </classes> </test> -->
+
+	<!-- <test thread-count="2" name="IE11Test"> <classes> <class name="com.cvx.qa.runners.GoIbiboTestRunnerIE11" 
+		/> </classes> </test> -->
+
+	<!-- <test thread-count="2" name="AndroidMobileChromeTest"> <classes> <class 
+		name="com.cvx.qa.runners.GoIbiboTestRunnerAndroidMobileChrome" /> </classes> 
+		</test> -->
+
+	<!-- <test thread-count="2" name="AndroidTabChromeTest"> <classes> <class 
+		name="com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome" /> </classes> 
+		</test> -->
+
+	<!-- <test thread-count="2" name="SafariTest"> <classes> <class name="com.cvx.qa.runners.GoIbiboTestRunnerSafari"/> 
+		</classes> </test> -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.614538">
+<testcase classname="Test Flight Search Page of GoIbibo" name="Validate the title of Flight Search Page" time="22.614538">
+<system-out><![CDATA[Given User navigates to Flight Search Page..................................passed
+When Retrieve actual title of page..........................................passed
+Then The actual title is matching with the expected title "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo".passed
+]]></system-out>
+</testcase>
+</testsuite>
