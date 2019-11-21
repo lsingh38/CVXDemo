@@ -104,6 +104,7 @@ public class TestBase {
 			capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, prop.getProperty("androidMobileDeviceName"));
 			capabilities.setCapability(MobileCapabilityType.UDID,prop.getProperty("androidMobileUDID"));
+
 			try {
 
 				anddriver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);

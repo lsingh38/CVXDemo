@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24042" started-at="2019-11-20T11:18:50 IST" finished-at="2019-11-20T11:19:14 IST">
+  <suite name="Suite" duration-ms="199129" started-at="2019-11-20T14:46:46 IST" finished-at="2019-11-20T14:50:05 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@78c03f1f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ChromeTest" duration-ms="24042" started-at="2019-11-20T11:18:50 IST" finished-at="2019-11-20T11:19:14 IST">
+    <test name="ChromeTest" duration-ms="124348" started-at="2019-11-20T14:46:46 IST" finished-at="2019-11-20T14:48:51 IST">
       <class name="com.cvx.qa.runners.GoIbiboTestRunnerChrome">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="setUpClass" is-config="true" duration-ms="402" started-at="2019-11-20T11:18:50 IST" finished-at="2019-11-20T11:18:50 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="setUpClass" is-config="true" duration-ms="650" started-at="2019-11-20T14:46:46 IST" finished-at="2019-11-20T14:46:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="selectBrowser" is-config="true" duration-ms="1" started-at="2019-11-20T11:18:50 IST" finished-at="2019-11-20T11:18:50 IST">
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="selectBrowser" is-config="true" duration-ms="1" started-at="2019-11-20T14:46:47 IST" finished-at="2019-11-20T14:46:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectBrowser -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="feature" duration-ms="22964" started-at="2019-11-20T11:18:50 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-20T11:19:13 IST">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="feature" duration-ms="122498" started-at="2019-11-20T14:46:47 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-20T14:48:50 IST">
           <params>
             <param index="0">
               <value>
@@ -29,11 +30,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="490" started-at="2019-11-20T11:19:13 IST" finished-at="2019-11-20T11:19:14 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerChrome@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="903" started-at="2019-11-20T14:48:50 IST" finished-at="2019-11-20T14:48:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerChrome -->
     </test> <!-- ChromeTest -->
+    <test name="AndroidTabChromeTest" duration-ms="74662" started-at="2019-11-20T14:48:51 IST" finished-at="2019-11-20T14:50:05 IST">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@78c03f1f]" name="setUpClass" is-config="true" duration-ms="33" started-at="2019-11-20T14:48:51 IST" finished-at="2019-11-20T14:48:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@78c03f1f]" name="selectBrowser" is-config="true" duration-ms="1" started-at="2019-11-20T14:48:51 IST" finished-at="2019-11-20T14:48:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@78c03f1f]" name="feature" duration-ms="74370" started-at="2019-11-20T14:48:51 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-20T14:50:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Flight Search Page of GoIbibo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome@78c03f1f]" name="tearDownClass" is-config="true" duration-ms="244" started-at="2019-11-20T14:50:05 IST" finished-at="2019-11-20T14:50:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerAndroidTabChrome -->
+    </test> <!-- AndroidTabChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

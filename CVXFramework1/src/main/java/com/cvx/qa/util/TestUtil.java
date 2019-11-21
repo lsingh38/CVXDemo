@@ -142,9 +142,11 @@ public class TestUtil extends TestBase implements Library {
 
 	// Get the screen shot
 	public void getScreenshot(String result) throws IOException {
+	
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// now copy the screenshot to desired location using copyFile //method
 		FileUtils.copyFile(src, new File(projectPath+"\\Screenshots\\" + result + timeStamp + ".png"));
+		
 	}
 
 	// Get Web Element screen shot
