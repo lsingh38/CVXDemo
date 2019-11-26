@@ -21,6 +21,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.ios.IOSElement;
+import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -30,6 +33,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	AndroidDriver<AndroidElement> anddriver;
+	IOSDriver<IOSElement> iosdriver;
 	public static Properties prop;
 	public static WebDriverWait wait;
 	public static Actions action;
@@ -45,7 +49,8 @@ public class TestBase {
 		prop = new Properties();
 		FileInputStream ip;
 		try {
-			ip = new FileInputStream(projectPath + "\\src\\main\\java\\com\\cvx\\qa\\config\\config.properties");
+	//		ip = new FileInputStream(projectPath + "\\src\\main\\java\\com\\cvx\\qa\\config\\config.properties");
+			ip = new FileInputStream(projectPath + "//src//main//java//com//cvx//qa//config//config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -138,7 +143,56 @@ public class TestBase {
 			anddriver.context("CHROMIUM");
 			driver = anddriver;
 
-		} else {
+		} 
+		else if (browserName.equalsIgnoreCase("IOSIphoneSafari")) {
+
+			capabilities = new DesiredCapabilities();
+			capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.SAFARI);
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ios");
+	    	capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.2");
+			capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
+			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, prop.getProperty("IOSMobileDeviceName"));
+		//	capabilities.setCapability(MobileCapabilityType.UDID,prop.getProperty("IOSMobileUDID"));
+
+			try {
+
+				iosdriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			System.out.println("Safari Browser detected in Iphone");
+			
+			driver = iosdriver;
+
+		}
+
+		else if (browserName.equalsIgnoreCase("IOSTabSafari")) {
+
+			capabilities = new DesiredCapabilities();
+			capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.SAFARI);
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ios");
+	    	capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.2");
+			capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
+			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, prop.getProperty("IOSTabDeviceName"));
+		//	capabilities.setCapability(MobileCapabilityType.UDID,prop.getProperty("IOSMobileUDID"));
+
+			try {
+
+				iosdriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			System.out.println("Safari Browser detected in ITab");
+			
+			driver = iosdriver;
+
+
+		} 
+		else {
 			System.out.println(browserName + "Browser has not been implemented");
 
 		}

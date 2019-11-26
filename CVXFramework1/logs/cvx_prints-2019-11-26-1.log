@@ -1,0 +1,50 @@
+11:42:32.947 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+11:42:55.440 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : 
+11:42:57.042 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+11:42:57.487 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : https://www.goibibo.com/flights/
+11:43:01.664 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+11:43:01.664 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Driver is navigated to url
+11:43:01.703 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - The page title is: Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo
+11:43:01.709 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Successfully validated the title for page
+11:43:03.835 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - Driver exit
+11:43:03.835 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Completed
+16:37:51.441 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:14:49.886 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:19:47.074 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:27:05.998 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:30:49.330 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:37:43.953 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:38:40.401 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:42:00.946 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : http://0.0.0.0:4723/welcome
+17:42:06.091 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+17:42:06.908 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : https://www.goibibo.com/flights/
+17:42:09.098 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+17:42:09.098 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Driver is navigated to url
+17:42:09.244 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - The page title is: Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo
+17:42:09.254 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Successfully validated the title for page
+17:42:12.296 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - Driver exit
+17:42:12.296 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Completed
+17:51:22.479 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+17:53:30.845 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : http://0.0.0.0:4723/welcome
+17:53:40.173 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+17:53:42.949 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : https://www.goibibo.com/flights/
+17:53:46.600 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+17:53:46.605 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Driver is navigated to url
+17:53:48.844 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - The page title is: Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo
+17:53:48.855 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Successfully validated the title for page
+17:53:52.018 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - Driver exit
+17:53:52.018 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Completed
+18:00:21.824 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+18:00:38.113 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : http://0.0.0.0:4723/welcome
+18:00:42.916 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+18:00:43.414 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : https://www.goibibo.com/flights/
+18:00:47.421 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+18:00:47.422 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Driver is navigated to url
+18:00:48.223 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - The page title is: Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo
+18:00:48.230 [main] INFO  com.cvx.qa.stepdefinitions.FlightSearchSteps - Successfully validated the title for page
+18:00:52.923 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - Driver exit
+18:00:52.923 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Completed
+18:00:58.367 [main] INFO  com.cvx.qa.stepdefinitions.Hooks - TestCase Started
+18:01:18.370 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : http://0.0.0.0:4723/welcome
+18:01:29.670 [main] INFO  com.cvx.qa.util.WebEventListener - Navigated to url : https://www.goibibo.com/flights/
+18:01:30.119 [main] INFO  com.cvx.qa.util.WebEventListener - Current url : https://www.goibibo.com/flights/

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="ChromeTest(failed)">
+  <test thread-count="5" name="IphoneTest(failed)">
     <classes>
-      <class name="com.cvx.qa.runners.GoIbiboTestRunnerChrome">
+      <class name="com.cvx.qa.runners.GoIbiboTestRunnerIOSMobileSafari">
         <methods>
-          <include name="selectBrowser"/>
           <include name="setUpClass"/>
           <include name="feature" invocation-numbers="0"/>
+          <include name="selectBrowser"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerChrome -->
+      </class> <!-- com.cvx.qa.runners.GoIbiboTestRunnerIOSMobileSafari -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- IphoneTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
